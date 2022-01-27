@@ -1,0 +1,194 @@
+{
+  "uid" : "16830dacc1a2c9bb",
+  "name" : "Ex2: Testing Sing Up  on REAL device ",
+  "fullName" : "tests.test_onboard#test_smoke_singUp_email_real",
+  "historyId" : "67e646ccc28753fa89a45c9d06a462dc",
+  "time" : {
+    "start" : 1643285143208,
+    "stop" : 1643285143208,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: Get started test for real device only",
+  "statusTrace" : "('/Users/Alex/PycharmProjects/baliston-test/tests/test_onboard.py', 66, 'Skipped: Get started test for real device only')",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "appdriver",
+    "time" : {
+      "start" : 1643284979865,
+      "stop" : 1643284985455,
+      "duration" : 5590
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "run_around_tests",
+    "time" : {
+      "start" : 1643284985455,
+      "stop" : 1643284985456,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "run_around_tests::0",
+    "time" : {
+      "start" : 1643285143218,
+      "stop" : 1643285143219,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "appdriver::0",
+    "time" : {
+      "start" : 1643285143219,
+      "stop" : 1643285144434,
+      "duration" : 1215
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "271596350ea9ea22",
+      "name" : "screenshot",
+      "source" : "271596350ea9ea22.png",
+      "type" : "image/png",
+      "size" : 420719
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skipif({'platformName': 'iOS', 'platformVersion': '15.0', 'udid': '697F08EA-E00E-47C0-ABA0-7F810B97B94F', 'automationName': 'XCUITest', 'autoAcceptAlerts': True, 'noReset': True, 'fullReset': False, 'appium:shouldTerminateApp': True, 'deviceName': 'iPhone 11', 'app': '/Users/Alex/Downloads/builds/Baliston.app'}, reason='Get started test for real device only')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_onboard"
+  }, {
+    "name" : "host",
+    "value" : "MacBooks-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "22216-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_onboard"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9f70443ea209f88e",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Get started test for real device only",
+      "time" : {
+        "start" : 1643284935878,
+        "stop" : 1643284935878,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9c9186dd87d482ee",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Get started test for real device only",
+      "time" : {
+        "start" : 1643284626596,
+        "stop" : 1643284626596,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2e4e68c0684ebb82",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Get started test for real device only",
+      "time" : {
+        "start" : 1643046913507,
+        "stop" : 1643046913507,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fe3244c78a157eb",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Get started test for real device only",
+      "time" : {
+        "start" : 1643046749286,
+        "stop" : 1643046749286,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8f5e0b45be29b5ab",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Get started test for real device only",
+      "time" : {
+        "start" : 1643046598370,
+        "stop" : 1643046598370,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "76156c466a4ed999",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Get started test for real device only",
+      "time" : {
+        "start" : 1643046383513,
+        "stop" : 1643046383513,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "15167b0aa1d74a10",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Get started test for real device only",
+      "time" : {
+        "start" : 1643043991891,
+        "stop" : 1643043991891,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skipif({'platformName': 'iOS', 'platformVersion': '15.0', 'udid': '697F08EA-E00E-47C0-ABA0-7F810B97B94F', 'automationName': 'XCUITest', 'autoAcceptAlerts': True, 'noReset': True, 'fullReset': False, 'appium:shouldTerminateApp': True, 'deviceName': 'iPhone 11', 'app': '/Users/Alex/Downloads/builds/Baliston.app'}, reason='Get started test for real device only')", "smoke" ]
+  },
+  "source" : "16830dacc1a2c9bb.json",
+  "parameterValues" : [ ]
+}

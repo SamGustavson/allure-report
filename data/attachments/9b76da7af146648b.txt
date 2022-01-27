@@ -1,0 +1,16 @@
+__init__
+b'\xf7'
+__init__
+__init__
+Now using email is samanthasoper@folllo.com
+__init__
+Send email as: samanthasoper@folllo.com
+__init__
+md5 has is : c89cdddf53fa5cf87c603d7b9c9a60d7
+Count letters numbers with id: ['e176965bf9210cfb89b7f6d012dfd80c', '17e2ad9d9a0b042e04035adfd3cebc30']
+__init__
+['NATIVE_APP']
+__init__
+__init__
+Simulator delete app
+Profile data clean up

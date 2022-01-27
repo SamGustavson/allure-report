@@ -1,0 +1,274 @@
+{
+  "uid" : "e17917088ecc942d",
+  "name" : "Ex1: Testing user data on Edit Profile Screen which already created on firebase",
+  "fullName" : "tests.test_profile#test_firebase_data_on_edit_profile",
+  "historyId" : "621c699b6626ded8b405621735181de4",
+  "time" : {
+    "start" : 1643286621322,
+    "stop" : 1643286624195,
+    "duration" : 2873
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 9,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "appdriver",
+    "time" : {
+      "start" : 1643286567226,
+      "stop" : 1643286573499,
+      "duration" : 6273
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "run_around_tests",
+    "time" : {
+      "start" : 1643286573499,
+      "stop" : 1643286573499,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "set_up",
+    "time" : {
+      "start" : 1643286616781,
+      "stop" : 1643286621322,
+      "duration" : 4541
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Press \"Profile\" button on Main screen",
+      "time" : {
+        "start" : 1643286621322,
+        "stop" : 1643286622224,
+        "duration" : 902
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "User open \"Edit Profile\" screen on PROFILE screen",
+      "time" : {
+        "start" : 1643286622224,
+        "stop" : 1643286622788,
+        "duration" : 564
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check user parameters which user set on boarding",
+      "time" : {
+        "start" : 1643286622788,
+        "stop" : 1643286624195,
+        "duration" : 1407
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "76b0de3f21b4bc37",
+      "name" : "stdout",
+      "source" : "76b0de3f21b4bc37.txt",
+      "type" : "text/plain",
+      "size" : 7
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "run_around_tests::0",
+    "time" : {
+      "start" : 1643286760795,
+      "stop" : 1643286760795,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "appdriver::0",
+    "time" : {
+      "start" : 1643286760796,
+      "stop" : 1643286761921,
+      "duration" : 1125
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "45d60ea9164dbf2c",
+      "name" : "screenshot",
+      "source" : "45d60ea9164dbf2c.png",
+      "type" : "image/png",
+      "size" : 285418
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_profile"
+  }, {
+    "name" : "host",
+    "value" : "MacBooks-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "23864-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_profile"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "be307089a5a43cfb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643285937720,
+        "stop" : 1643285940753,
+        "duration" : 3033
+      }
+    }, {
+      "uid" : "4fa0bf6cb9417f94",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidSessionIdException: Message: A session is either terminated or not started\nStacktrace:\nNoSuchDriverError: A session is either terminated or not started\n    at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:231:15)\n    at /usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:424:15\n    at Layer.handle [as handle_request] (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)\n    at /usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:281:22\n    at param (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:354:14)\n    at param (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:365:14)\n    at Function.process_params (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:410:3)\n    at next (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:275:10)\n    at logger (/usr/local/lib/node_modules/appium/node_modules/morgan/index.js:144:5)\n    at Layer.handle [as handle_request] (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:317:13)\n    at /usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:335:12)\n    at next (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:275:10)\n    at /usr/local/lib/node_modules/appium/node_modules/body-parser/lib/read.js:130:5\n    at invokeCallback (/usr/local/lib/node_modules/appium/node_modules/raw-body/index.js:224:16)\n    at done (/usr/local/lib/node_modules/appium/node_modules/raw-body/index.js:213:7)\n    at IncomingMessage.onEnd (/usr/local/lib/node_modules/appium/node_modules/raw-body/index.js:273:7)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1334:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "time" : {
+        "start" : 1643284935940,
+        "stop" : 1643284935940,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7e837b4ebb8f3b00",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidSessionIdException: Message: A session is either terminated or not started\nStacktrace:\nNoSuchDriverError: A session is either terminated or not started\n    at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:231:15)\n    at /usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:424:15\n    at Layer.handle [as handle_request] (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)\n    at /usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:281:22\n    at param (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:354:14)\n    at param (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:365:14)\n    at Function.process_params (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:410:3)\n    at next (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:275:10)\n    at logger (/usr/local/lib/node_modules/appium/node_modules/morgan/index.js:144:5)\n    at Layer.handle [as handle_request] (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:317:13)\n    at /usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:335:12)\n    at next (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:275:10)\n    at /usr/local/lib/node_modules/appium/node_modules/body-parser/lib/read.js:130:5\n    at invokeCallback (/usr/local/lib/node_modules/appium/node_modules/raw-body/index.js:224:16)\n    at done (/usr/local/lib/node_modules/appium/node_modules/raw-body/index.js:213:7)\n    at IncomingMessage.onEnd (/usr/local/lib/node_modules/appium/node_modules/raw-body/index.js:273:7)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1334:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "time" : {
+        "start" : 1643284626681,
+        "stop" : 1643284626681,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "96b665293f89ec63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643208967010,
+        "stop" : 1643208970297,
+        "duration" : 3287
+      }
+    }, {
+      "uid" : "8dbbfcca6bc588c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643045857140,
+        "stop" : 1643045860160,
+        "duration" : 3020
+      }
+    }, {
+      "uid" : "36cfda0375c2977a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643045591903,
+        "stop" : 1643045594775,
+        "duration" : 2872
+      }
+    }, {
+      "uid" : "17793ffc43e2ff2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643045044013,
+        "stop" : 1643045048035,
+        "duration" : 4022
+      }
+    }, {
+      "uid" : "91775ff53cbf6e91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643044515168,
+        "stop" : 1643044519056,
+        "duration" : 3888
+      }
+    }, {
+      "uid" : "f2c35ea7b604f425",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidSessionIdException: Message: A session is either terminated or not started\nStacktrace:\nNoSuchDriverError: A session is either terminated or not started\n    at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:231:15)\n    at /usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:424:15\n    at Layer.handle [as handle_request] (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)\n    at /usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:281:22\n    at param (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:354:14)\n    at param (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:365:14)\n    at Function.process_params (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:410:3)\n    at next (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:275:10)\n    at logger (/usr/local/lib/node_modules/appium/node_modules/morgan/index.js:144:5)\n    at Layer.handle [as handle_request] (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:317:13)\n    at /usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:335:12)\n    at next (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:275:10)\n    at /usr/local/lib/node_modules/appium/node_modules/body-parser/lib/read.js:130:5\n    at invokeCallback (/usr/local/lib/node_modules/appium/node_modules/raw-body/index.js:224:16)\n    at done (/usr/local/lib/node_modules/appium/node_modules/raw-body/index.js:213:7)\n    at IncomingMessage.onEnd (/usr/local/lib/node_modules/appium/node_modules/raw-body/index.js:273:7)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1334:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "time" : {
+        "start" : 1643043991933,
+        "stop" : 1643043991933,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e17917088ecc942d.json",
+  "parameterValues" : [ ]
+}

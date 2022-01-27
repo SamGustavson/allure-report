@@ -1,0 +1,5 @@
+None  Successfully deleted user Data from firebase realtime
+Successfully delete user from user auth
+__init__
+Simulator delete app
+Profile data clean up

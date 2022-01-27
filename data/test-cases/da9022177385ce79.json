@@ -1,0 +1,141 @@
+{
+  "uid" : "da9022177385ce79",
+  "name" : "Ex5: Testing camera settings Settings screen",
+  "fullName" : "tests.test_profile#test_camera_settings",
+  "historyId" : "22ca265148029e0cc18715cc1fd934ef",
+  "time" : {
+    "start" : 1643044670522,
+    "stop" : 1643044670522,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: Get started test for real device only",
+  "statusTrace" : "('/Users/Alex/PycharmProjects/baliston-test/tests/test_profile.py', 184, 'Skipped: Get started test for real device only')",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "appdriver",
+    "time" : {
+      "start" : 1643044458969,
+      "stop" : 1643044464990,
+      "duration" : 6021
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "run_around_tests",
+    "time" : {
+      "start" : 1643044464990,
+      "stop" : 1643044464990,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "set_up",
+    "time" : {
+      "start" : 1643044670528,
+      "stop" : 1643044674912,
+      "duration" : 4384
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "run_around_tests::0",
+    "time" : {
+      "start" : 1643044685374,
+      "stop" : 1643044685374,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "appdriver::0",
+    "time" : {
+      "start" : 1643044685375,
+      "stop" : 1643044686526,
+      "duration" : 1151
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c6da78140b86941d",
+      "name" : "screenshot",
+      "source" : "c6da78140b86941d.png",
+      "type" : "image/png",
+      "size" : 285455
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skipif({'platformName': 'iOS', 'platformVersion': '15.0', 'udid': '697F08EA-E00E-47C0-ABA0-7F810B97B94F', 'automationName': 'XCUITest', 'autoAcceptAlerts': True, 'noReset': True, 'fullReset': False, 'appium:shouldTerminateApp': True, 'deviceName': 'iPhone 11', 'app': '/Users/Alex/Downloads/builds/Baliston.app'}, reason='Get started test for real device only')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_profile"
+  }, {
+    "name" : "host",
+    "value" : "MacBooks-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "81405-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_profile"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skipif({'platformName': 'iOS', 'platformVersion': '15.0', 'udid': '697F08EA-E00E-47C0-ABA0-7F810B97B94F', 'automationName': 'XCUITest', 'autoAcceptAlerts': True, 'noReset': True, 'fullReset': False, 'appium:shouldTerminateApp': True, 'deviceName': 'iPhone 11', 'app': '/Users/Alex/Downloads/builds/Baliston.app'}, reason='Get started test for real device only')" ]
+  },
+  "source" : "da9022177385ce79.json",
+  "parameterValues" : [ ]
+}

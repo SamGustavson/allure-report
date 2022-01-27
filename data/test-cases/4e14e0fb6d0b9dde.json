@@ -1,0 +1,308 @@
+{
+  "uid" : "4e14e0fb6d0b9dde",
+  "name" : "Ex2: Testing user data on Profile Screen afther chenging on Edit Profile screen",
+  "fullName" : "tests.test_profile#test_change_username_on_edit_profile",
+  "historyId" : "92809a0c327d00bdf068ec18be3534f5",
+  "time" : {
+    "start" : 1643208974593,
+    "stop" : 1643208991143,
+    "duration" : 16550
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "appdriver",
+    "time" : {
+      "start" : 1643208831749,
+      "stop" : 1643208909910,
+      "duration" : 78161
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "run_around_tests",
+    "time" : {
+      "start" : 1643208909911,
+      "stop" : 1643208909911,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "set_up",
+    "time" : {
+      "start" : 1643208970299,
+      "stop" : 1643208974593,
+      "duration" : 4294
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Press \"Profile\" button on Main screen",
+      "time" : {
+        "start" : 1643208974593,
+        "stop" : 1643208975672,
+        "duration" : 1079
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "User open \"Edit Profile\" screen on PROFILE screen",
+      "time" : {
+        "start" : 1643208975672,
+        "stop" : 1643208976192,
+        "duration" : 520
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click on name text field  and remove previous name",
+      "time" : {
+        "start" : 1643208976192,
+        "stop" : 1643208982694,
+        "duration" : 6502
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Set full app name in Name text field",
+      "time" : {
+        "start" : 1643208982694,
+        "stop" : 1643208985994,
+        "duration" : 3300
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "'Ginger Foutley'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Press save changes button on profile edit screen",
+      "time" : {
+        "start" : 1643208985994,
+        "stop" : 1643208987707,
+        "duration" : 1713
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Press \"Activyty\" tub to open activity screen ",
+      "time" : {
+        "start" : 1643208987707,
+        "stop" : 1643208988800,
+        "duration" : 1093
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Press \"Earth\" tub to open safety screen ",
+      "time" : {
+        "start" : 1643208988800,
+        "stop" : 1643208989475,
+        "duration" : 675
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Press \"Shoes\" tub to open shoes screen ",
+      "time" : {
+        "start" : 1643208989475,
+        "stop" : 1643208989906,
+        "duration" : 431
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Press \"Profile\" button on Main screen",
+      "time" : {
+        "start" : 1643208989906,
+        "stop" : 1643208990554,
+        "duration" : 648
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check if user name: 'Ginger Foutley' was changed on settings screen",
+      "time" : {
+        "start" : 1643208990555,
+        "stop" : 1643208991143,
+        "duration" : 588
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "'Ginger Foutley'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "6587e988a6619fcb",
+      "name" : "stdout",
+      "source" : "6587e988a6619fcb.txt",
+      "type" : "text/plain",
+      "size" : 34
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "run_around_tests::0",
+    "time" : {
+      "start" : 1643209130158,
+      "stop" : 1643209130158,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "appdriver::0",
+    "time" : {
+      "start" : 1643209130159,
+      "stop" : 1643209131326,
+      "duration" : 1167
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e640193db83296b",
+      "name" : "screenshot",
+      "source" : "e640193db83296b.png",
+      "type" : "image/png",
+      "size" : 285759
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_profile"
+  }, {
+    "name" : "host",
+    "value" : "MacBooks-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "9147-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_profile"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4e14e0fb6d0b9dde.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,152 @@
+{
+  "uid" : "c17ec4e977810cd4",
+  "name" : "test_teardown",
+  "fullName" : "tests.test_activity#test_teardown",
+  "historyId" : "b08765aedb936ec948c470ec53d8bd78",
+  "time" : {
+    "start" : 1643043198747,
+    "stop" : 1643043199532,
+    "duration" : 785
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "appdriver",
+    "time" : {
+      "start" : 1643043139606,
+      "stop" : 1643043145869,
+      "duration" : 6263
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "run_around_tests",
+    "time" : {
+      "start" : 1643043145869,
+      "stop" : 1643043145870,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Clean up and delete app after test ",
+      "time" : {
+        "start" : 1643043199527,
+        "stop" : 1643043199532,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "27c0d50669a1f82a",
+      "name" : "stdout",
+      "source" : "27c0d50669a1f82a.txt",
+      "type" : "text/plain",
+      "size" : 152
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "appdriver::0",
+    "time" : {
+      "start" : 1643043245502,
+      "stop" : 1643043245938,
+      "duration" : 436
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5b29684ff91ea498",
+      "name" : "screenshot",
+      "source" : "5b29684ff91ea498.png",
+      "type" : "image/png",
+      "size" : 2003782
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "run_around_tests::0",
+    "time" : {
+      "start" : 1643043245502,
+      "stop" : 1643043245502,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_activity"
+  }, {
+    "name" : "host",
+    "value" : "MacBooks-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "80271-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_activity"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c17ec4e977810cd4.json",
+  "parameterValues" : [ ]
+}

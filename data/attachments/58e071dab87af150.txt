@@ -1,0 +1,1 @@
+Actual parameters is: weight - 56, height -169,age- 53

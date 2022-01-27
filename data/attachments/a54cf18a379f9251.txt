@@ -1,0 +1,20 @@
+autouse check
+
+Setup Driver
+setup_class
+__init__
+__init__
+b'\xf7'
+__init__
+__init__
+Now using email is georgewiseman@folllo.com
+Successfully created new user: 9dFIOD19bbQSJJLs4bB8ElvELS82
+Successfully fetched user data: {'age': 52, 'devices': {'607BA1BF-24D0-FE63-62E8-0BEC7B0CC80F': {'code': 'ZT2-SPFIx-26ZO-211400010\r\nC2:52:B3:E5:F0:EA\r\nF8:0B:FA:A4:C5:C0', 'name': 'PiedPiper', 'uid': '607BA1BF-24D0-FE63-62E8-0BEC7B0CC80F'}}, 'email': 'georgewiseman@folllo.com', 'gender': 'Female', 'height': 168, 'locate': 'en_UA', 'location': 'enabled', 'name': 'Alan Turing', 'notification': 'enabled', 'shoeSize': 31.0, 'tz': 'Europe/Kiev', 'uid': '9dFIOD19bbQSJJLs4bB8ElvELS82', 'weight': 55}
+__init__
+Send email as: georgewiseman@folllo.com
+__init__
+md5 has is : d42844a8a1aefedd857ac9d837654520
+Count letters numbers with id: ['453699952586c42ce572584a0bb6660a']
+__init__
+['NATIVE_APP']
+__init__

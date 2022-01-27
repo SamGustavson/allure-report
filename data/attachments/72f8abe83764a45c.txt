@@ -1,0 +1,5 @@
+__init__
+b'\xf7'
+__init__
+b'\xf7'
+__init__

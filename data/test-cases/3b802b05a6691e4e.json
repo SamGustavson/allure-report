@@ -1,0 +1,388 @@
+{
+  "uid" : "3b802b05a6691e4e",
+  "name" : "Ex2: Testing user data on Profile Screen afther chenging on Edit Profile screen",
+  "fullName" : "tests.test_profile#test_change_username_on_edit_profile",
+  "historyId" : "92809a0c327d00bdf068ec18be3534f5",
+  "time" : {
+    "start" : 1643286628372,
+    "stop" : 1643286645063,
+    "duration" : 16691
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 9,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "appdriver",
+    "time" : {
+      "start" : 1643286567226,
+      "stop" : 1643286573499,
+      "duration" : 6273
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "run_around_tests",
+    "time" : {
+      "start" : 1643286573499,
+      "stop" : 1643286573499,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "set_up",
+    "time" : {
+      "start" : 1643286624198,
+      "stop" : 1643286628372,
+      "duration" : 4174
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Press \"Profile\" button on Main screen",
+      "time" : {
+        "start" : 1643286628373,
+        "stop" : 1643286629324,
+        "duration" : 951
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "User open \"Edit Profile\" screen on PROFILE screen",
+      "time" : {
+        "start" : 1643286629324,
+        "stop" : 1643286629936,
+        "duration" : 612
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click on name text field  and remove previous name",
+      "time" : {
+        "start" : 1643286629936,
+        "stop" : 1643286636503,
+        "duration" : 6567
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Set full app name in Name text field",
+      "time" : {
+        "start" : 1643286636503,
+        "stop" : 1643286639832,
+        "duration" : 3329
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "'Ginger Foutley'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Press save changes button on profile edit screen",
+      "time" : {
+        "start" : 1643286639832,
+        "stop" : 1643286641583,
+        "duration" : 1751
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Press \"Activyty\" tub to open activity screen ",
+      "time" : {
+        "start" : 1643286641584,
+        "stop" : 1643286642762,
+        "duration" : 1178
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Press \"Earth\" tub to open safety screen ",
+      "time" : {
+        "start" : 1643286642762,
+        "stop" : 1643286643331,
+        "duration" : 569
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Press \"Shoes\" tub to open shoes screen ",
+      "time" : {
+        "start" : 1643286643332,
+        "stop" : 1643286643775,
+        "duration" : 443
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Press \"Profile\" button on Main screen",
+      "time" : {
+        "start" : 1643286643775,
+        "stop" : 1643286644471,
+        "duration" : 696
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check if user name: 'Ginger Foutley' was changed on settings screen",
+      "time" : {
+        "start" : 1643286644471,
+        "stop" : 1643286645063,
+        "duration" : 592
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "'Ginger Foutley'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "720085b4c2c81695",
+      "name" : "stdout",
+      "source" : "720085b4c2c81695.txt",
+      "type" : "text/plain",
+      "size" : 34
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "run_around_tests::0",
+    "time" : {
+      "start" : 1643286760795,
+      "stop" : 1643286760795,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "appdriver::0",
+    "time" : {
+      "start" : 1643286760796,
+      "stop" : 1643286761921,
+      "duration" : 1125
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "45d60ea9164dbf2c",
+      "name" : "screenshot",
+      "source" : "45d60ea9164dbf2c.png",
+      "type" : "image/png",
+      "size" : 285418
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_profile"
+  }, {
+    "name" : "host",
+    "value" : "MacBooks-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "23864-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_profile"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a22199add75046ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643285944978,
+        "stop" : 1643285961578,
+        "duration" : 16600
+      }
+    }, {
+      "uid" : "835e83d485dc0aa6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidSessionIdException: Message: A session is either terminated or not started\nStacktrace:\nNoSuchDriverError: A session is either terminated or not started\n    at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:231:15)\n    at /usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:424:15\n    at Layer.handle [as handle_request] (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)\n    at /usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:281:22\n    at param (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:354:14)\n    at param (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:365:14)\n    at Function.process_params (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:410:3)\n    at next (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:275:10)\n    at logger (/usr/local/lib/node_modules/appium/node_modules/morgan/index.js:144:5)\n    at Layer.handle [as handle_request] (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:317:13)\n    at /usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:335:12)\n    at next (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:275:10)\n    at /usr/local/lib/node_modules/appium/node_modules/body-parser/lib/read.js:130:5\n    at invokeCallback (/usr/local/lib/node_modules/appium/node_modules/raw-body/index.js:224:16)\n    at done (/usr/local/lib/node_modules/appium/node_modules/raw-body/index.js:213:7)\n    at IncomingMessage.onEnd (/usr/local/lib/node_modules/appium/node_modules/raw-body/index.js:273:7)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1334:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "time" : {
+        "start" : 1643284935985,
+        "stop" : 1643284935985,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a63b3292044adb85",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidSessionIdException: Message: A session is either terminated or not started\nStacktrace:\nNoSuchDriverError: A session is either terminated or not started\n    at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:231:15)\n    at /usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:424:15\n    at Layer.handle [as handle_request] (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)\n    at /usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:281:22\n    at param (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:354:14)\n    at param (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:365:14)\n    at Function.process_params (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:410:3)\n    at next (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:275:10)\n    at logger (/usr/local/lib/node_modules/appium/node_modules/morgan/index.js:144:5)\n    at Layer.handle [as handle_request] (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:317:13)\n    at /usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:335:12)\n    at next (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:275:10)\n    at /usr/local/lib/node_modules/appium/node_modules/body-parser/lib/read.js:130:5\n    at invokeCallback (/usr/local/lib/node_modules/appium/node_modules/raw-body/index.js:224:16)\n    at done (/usr/local/lib/node_modules/appium/node_modules/raw-body/index.js:213:7)\n    at IncomingMessage.onEnd (/usr/local/lib/node_modules/appium/node_modules/raw-body/index.js:273:7)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1334:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "time" : {
+        "start" : 1643284626725,
+        "stop" : 1643284626725,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4e14e0fb6d0b9dde",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643208974593,
+        "stop" : 1643208991143,
+        "duration" : 16550
+      }
+    }, {
+      "uid" : "50349a9e94e6a5ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643045864425,
+        "stop" : 1643045881563,
+        "duration" : 17138
+      }
+    }, {
+      "uid" : "9f9076a8741247c7",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1643045599016,
+        "stop" : 1643045610676,
+        "duration" : 11660
+      }
+    }, {
+      "uid" : "2536ca4d58321188",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1643045052463,
+        "stop" : 1643045064707,
+        "duration" : 12244
+      }
+    }, {
+      "uid" : "3beb340f354ef476",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1643044523625,
+        "stop" : 1643044535751,
+        "duration" : 12126
+      }
+    }, {
+      "uid" : "659df9bd969cc7ee",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidSessionIdException: Message: A session is either terminated or not started\nStacktrace:\nNoSuchDriverError: A session is either terminated or not started\n    at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:231:15)\n    at /usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:424:15\n    at Layer.handle [as handle_request] (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)\n    at /usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:281:22\n    at param (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:354:14)\n    at param (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:365:14)\n    at Function.process_params (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:410:3)\n    at next (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:275:10)\n    at logger (/usr/local/lib/node_modules/appium/node_modules/morgan/index.js:144:5)\n    at Layer.handle [as handle_request] (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:317:13)\n    at /usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:335:12)\n    at next (/usr/local/lib/node_modules/appium/node_modules/express/lib/router/index.js:275:10)\n    at /usr/local/lib/node_modules/appium/node_modules/body-parser/lib/read.js:130:5\n    at invokeCallback (/usr/local/lib/node_modules/appium/node_modules/raw-body/index.js:224:16)\n    at done (/usr/local/lib/node_modules/appium/node_modules/raw-body/index.js:213:7)\n    at IncomingMessage.onEnd (/usr/local/lib/node_modules/appium/node_modules/raw-body/index.js:273:7)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1334:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "time" : {
+        "start" : 1643043991993,
+        "stop" : 1643043991993,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3b802b05a6691e4e.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,15 @@
+autouse check
+
+Setup Driver
+setup_class
+b'\xf7'
+Now using email is jacksonmeehleder@folllo.com
+Send email as: jacksonmeehleder@folllo.com
+md5 has is : 8520ee137a1ac98bb51ce4cfc2d88735
+Count letters numbers with id: ['b65afd2207436c6d1047e295a9ec7332']
+['NATIVE_APP']
+First step SignUp
+b'\xf7'
+b'\xf7'
+b'\xf7'
+SHOE NOT REACHABLE!

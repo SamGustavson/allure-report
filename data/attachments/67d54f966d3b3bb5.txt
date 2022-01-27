@@ -1,0 +1,5 @@
+First method
+b'\xf7'
+Send email as: fake_email@mail,com
+Please create a Baliston account to use your new shoes with.
+Email is incorrect is appeared 

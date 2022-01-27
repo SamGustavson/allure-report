@@ -1,0 +1,8 @@
+b'\xf7'
+Now using email is ritathompson@folllo.com
+Send email as: ritathompson@folllo.com
+md5 has is : 8e40c395c9d6d533d2d3e489b0df2479
+Count letters numbers with id: ['002b2ca8e4c4cdcc6318ff6488a30ef6', '7106e87fc794bd53910493c5c6448bf1']
+['NATIVE_APP']
+Simulator delete app
+Profile data clean up

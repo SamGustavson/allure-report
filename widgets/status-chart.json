@@ -1,0 +1,261 @@
+[ {
+  "uid" : "e5624d52f7e6bf3b",
+  "name" : "Ex5: Testing camera settings Settings screen",
+  "time" : {
+    "start" : 1643286754208,
+    "stop" : 1643286754208,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "d44b4e4ca473ea95",
+  "name" : "Ex2: Testing Sing In with wrong email",
+  "time" : {
+    "start" : 1643284805440,
+    "stop" : 1643284837586,
+    "duration" : 32146
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8bb0854833110d",
+  "name" : "Ex2: Testing user data on Profile Screen afther chenging on Edit Profile screen",
+  "time" : {
+    "start" : 1643286649371,
+    "stop" : 1643286736059,
+    "duration" : 86688
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6636fcb5a42cf082",
+  "name" : "Ex7: Ex6: Testing redirect from ACTIVITY to PROFILE SCREEN",
+  "time" : {
+    "start" : 1643046005727,
+    "stop" : 1643046008108,
+    "duration" : 2381
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3cf8f29c27122868",
+  "name" : "Ex2: Testing Sing Up with temporary email until fake paring",
+  "time" : {
+    "start" : 1643284989819,
+    "stop" : 1643285143204,
+    "duration" : 153385
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af92fd757c5a1ae7",
+  "name" : "Ex6: Testing redirect from PROFILE to SHOES SCREEN",
+  "time" : {
+    "start" : 1643286758372,
+    "stop" : 1643286759655,
+    "duration" : 1283
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e17917088ecc942d",
+  "name" : "Ex1: Testing user data on Edit Profile Screen which already created on firebase",
+  "time" : {
+    "start" : 1643286621322,
+    "stop" : 1643286624195,
+    "duration" : 2873
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1dfcc477275ac2ea",
+  "name" : "Ex3: Testing notification settings on Settings screen",
+  "time" : {
+    "start" : 1643286740720,
+    "stop" : 1643286745617,
+    "duration" : 4897
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e1fe27a48b63f35",
+  "name" : "test_teardown",
+  "time" : {
+    "start" : 1643286759658,
+    "stop" : 1643286760793,
+    "duration" : 1135
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16830dacc1a2c9bb",
+  "name" : "Ex2: Testing Sing Up  on REAL device ",
+  "time" : {
+    "start" : 1643285143208,
+    "stop" : 1643285143208,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "79b3c78a2c3ea144",
+  "name" : "test_teardown",
+  "time" : {
+    "start" : 1643284935795,
+    "stop" : 1643284935800,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c49758d640c9eaf",
+  "name" : "Ex10: Testing Push Notification ",
+  "time" : {
+    "start" : 1643285143210,
+    "stop" : 1643285143210,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "b21cab8c4a3c036c",
+  "name" : "test_install",
+  "time" : {
+    "start" : 1643284706061,
+    "stop" : 1643284706259,
+    "duration" : 198
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2141bd60e1f6329d",
+  "name" : "Ex2: Testing Sing In with wrong email",
+  "time" : {
+    "start" : 1643284773643,
+    "stop" : 1643284805437,
+    "duration" : 31794
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ccb2bd6efb720fdb",
+  "name" : "Ex1: Testing redirect on SHOES SCREEN",
+  "time" : {
+    "start" : 1643284695847,
+    "stop" : 1643284699324,
+    "duration" : 3477
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c716b2d94cd5c97c",
+  "name" : "Ex3: Testing Sing Up with right email, but unregistred",
+  "time" : {
+    "start" : 1643284837588,
+    "stop" : 1643284865535,
+    "duration" : 27947
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b110a5299430d91",
+  "name" : "test_login",
+  "time" : {
+    "start" : 1643284652804,
+    "stop" : 1643284695843,
+    "duration" : 43039
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fdcb014e062a36c5",
+  "name" : "test_teardown",
+  "time" : {
+    "start" : 1643285143212,
+    "stop" : 1643285143217,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e6140411446a3f1",
+  "name" : "Ex4: Testing location settings on Settings screen",
+  "time" : {
+    "start" : 1643286749871,
+    "stop" : 1643286754206,
+    "duration" : 4335
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf19202e859759ca",
+  "name" : "Ex1: Testing Sing Up with wrong symbols in email",
+  "time" : {
+    "start" : 1643284739597,
+    "stop" : 1643284773640,
+    "duration" : 34043
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "463f9f260e0b3df2",
+  "name" : "Ex1: Testing Sing Up with wrong symbols in email",
+  "time" : {
+    "start" : 1643284706261,
+    "stop" : 1643284739595,
+    "duration" : 33334
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3b802b05a6691e4e",
+  "name" : "Ex2: Testing user data on Profile Screen afther chenging on Edit Profile screen",
+  "time" : {
+    "start" : 1643286628372,
+    "stop" : 1643286645063,
+    "duration" : 16691
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "47cd0ab4dc2a1c11",
+  "name" : "Ex5: Testing Sing Up",
+  "time" : {
+    "start" : 1643284916405,
+    "stop" : 1643284935694,
+    "duration" : 19289
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5e5ddbf14843ff2f",
+  "name" : "Ex4: Testing Sing Up, Sign Out, and Sign In again",
+  "time" : {
+    "start" : 1643284865537,
+    "stop" : 1643284916402,
+    "duration" : 50865
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62c2335941467dd0",
+  "name" : "test_teardown",
+  "time" : {
+    "start" : 1643284699326,
+    "stop" : 1643284700039,
+    "duration" : 713
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "76dfb05cae4dcfb5",
+  "name" : "test_login",
+  "time" : {
+    "start" : 1643286577728,
+    "stop" : 1643286616775,
+    "duration" : 39047
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

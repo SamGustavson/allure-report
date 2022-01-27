@@ -1,0 +1,236 @@
+{
+  "uid" : "3beb340f354ef476",
+  "name" : "Ex2: Testing user data on Profile Screen afther chenging on Edit Profile screen",
+  "fullName" : "tests.test_profile#test_change_username_on_edit_profile",
+  "historyId" : "92809a0c327d00bdf068ec18be3534f5",
+  "time" : {
+    "start" : 1643044523625,
+    "stop" : 1643044535751,
+    "duration" : 12126
+  },
+  "status" : "broken",
+  "statusMessage" : "IndexError: list index out of range",
+  "statusTrace" : "appdriver = <appium.webdriver.webdriver.WebDriver (session=\"ea0e37cb-6728-4559-9c38-ed73d5a73c5f\")>, set_up = None\n\n    @allure.title('Ex2: Testing user data on Profile Screen afther chenging on Edit Profile screen')\n    def test_change_username_on_edit_profile(appdriver, set_up):\n        # OnboardScreen(appdriver).give_allow_bluetooth()\n        # OnboardScreen(appdriver).press_skip_button()\n        # OnboardScreen(appdriver).press_already_have_an_account()\n        # # Sign Up\n        # email = FakeMailBox().generate_temporary_mailbox_and_email()\n        # uid = RealtimeDatabase().generate_new_user_with_shoes(email)\n        #\n        # SignInSignUpScreen(appdriver).click_and_clear_email_text_field(email)\n        # SignInSignUpScreen(appdriver).press_sign_in_button()\n        # #\n        # link = FakeMailBox().get_link_from_user_mail_box()\n        # SignInSignUpScreen(appdriver).open_authorization_link_for_simulator(link)\n        # PairingProcessScreen(appdriver).press_allows_pop_ups()\n    \n        MainScreen(appdriver).open_profile_tub()\n        ProfileScreen(appdriver).open_edit_profile_screen()\n        EditProfileScreen(appdriver).clear_name_on_text_field()\n        EditProfileScreen(appdriver).set_full_name(User_constant.username)\n>       EditProfileScreen(appdriver).save_changes_user_profile()\n\ntests/test_profile.py:88: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nsrc/page_object/edit_profile_sreen.py:176: in save_changes_user_profile\n    super()._hide_keyboard()\nsrc/page_object/base_page.py:268: in _hide_keyboard\n    self._get_element_and_click(\"Return\")\nsrc/page_object/base_page.py:173: in _get_element_and_click\n    by = get_locator_by_string(locator)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nlocator_with_type = 'Return'\n\n    def get_locator_by_string(locator_with_type):\n        exploited_locator = locator_with_type.split(':', 1)\n        by_type = exploited_locator[0]\n>       locator = exploited_locator[1]\nE       IndexError: list index out of range\n\nsrc/page_object/base_page.py:28: IndexError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "appdriver",
+    "time" : {
+      "start" : 1643044458969,
+      "stop" : 1643044464990,
+      "duration" : 6021
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "run_around_tests",
+    "time" : {
+      "start" : 1643044464990,
+      "stop" : 1643044464990,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "set_up",
+    "time" : {
+      "start" : 1643044519058,
+      "stop" : 1643044523625,
+      "duration" : 4567
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "IndexError: list index out of range",
+    "statusTrace" : "appdriver = <appium.webdriver.webdriver.WebDriver (session=\"ea0e37cb-6728-4559-9c38-ed73d5a73c5f\")>, set_up = None\n\n    @allure.title('Ex2: Testing user data on Profile Screen afther chenging on Edit Profile screen')\n    def test_change_username_on_edit_profile(appdriver, set_up):\n        # OnboardScreen(appdriver).give_allow_bluetooth()\n        # OnboardScreen(appdriver).press_skip_button()\n        # OnboardScreen(appdriver).press_already_have_an_account()\n        # # Sign Up\n        # email = FakeMailBox().generate_temporary_mailbox_and_email()\n        # uid = RealtimeDatabase().generate_new_user_with_shoes(email)\n        #\n        # SignInSignUpScreen(appdriver).click_and_clear_email_text_field(email)\n        # SignInSignUpScreen(appdriver).press_sign_in_button()\n        # #\n        # link = FakeMailBox().get_link_from_user_mail_box()\n        # SignInSignUpScreen(appdriver).open_authorization_link_for_simulator(link)\n        # PairingProcessScreen(appdriver).press_allows_pop_ups()\n    \n        MainScreen(appdriver).open_profile_tub()\n        ProfileScreen(appdriver).open_edit_profile_screen()\n        EditProfileScreen(appdriver).clear_name_on_text_field()\n        EditProfileScreen(appdriver).set_full_name(User_constant.username)\n>       EditProfileScreen(appdriver).save_changes_user_profile()\n\ntests/test_profile.py:88: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nsrc/page_object/edit_profile_sreen.py:176: in save_changes_user_profile\n    super()._hide_keyboard()\nsrc/page_object/base_page.py:268: in _hide_keyboard\n    self._get_element_and_click(\"Return\")\nsrc/page_object/base_page.py:173: in _get_element_and_click\n    by = get_locator_by_string(locator)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nlocator_with_type = 'Return'\n\n    def get_locator_by_string(locator_with_type):\n        exploited_locator = locator_with_type.split(':', 1)\n        by_type = exploited_locator[0]\n>       locator = exploited_locator[1]\nE       IndexError: list index out of range\n\nsrc/page_object/base_page.py:28: IndexError",
+    "steps" : [ {
+      "name" : "Press \"Profile\" button on Main screen",
+      "time" : {
+        "start" : 1643044523625,
+        "stop" : 1643044524589,
+        "duration" : 964
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "User open \"Edit Profile\" screen on PROFILE screen",
+      "time" : {
+        "start" : 1643044524589,
+        "stop" : 1643044525142,
+        "duration" : 553
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click on name text field  and remove previous name",
+      "time" : {
+        "start" : 1643044525142,
+        "stop" : 1643044531870,
+        "duration" : 6728
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Set full app name in Name text field",
+      "time" : {
+        "start" : 1643044531870,
+        "stop" : 1643044535166,
+        "duration" : 3296
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "'Ginger Foutley'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Press save changes button on profile edit screen",
+      "time" : {
+        "start" : 1643044535166,
+        "stop" : 1643044535748,
+        "duration" : 582
+      },
+      "status" : "broken",
+      "statusMessage" : "IndexError: list index out of range\n",
+      "statusTrace" : "  File \"/Users/Alex/PycharmProjects/running-test/venv/lib/python3.9/site-packages/allure_commons/_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"/Users/Alex/PycharmProjects/baliston-test/src/page_object/edit_profile_sreen.py\", line 176, in save_changes_user_profile\n    super()._hide_keyboard()\n  File \"/Users/Alex/PycharmProjects/baliston-test/src/page_object/base_page.py\", line 268, in _hide_keyboard\n    self._get_element_and_click(\"Return\")\n  File \"/Users/Alex/PycharmProjects/baliston-test/src/page_object/base_page.py\", line 173, in _get_element_and_click\n    by = get_locator_by_string(locator)\n  File \"/Users/Alex/PycharmProjects/baliston-test/src/page_object/base_page.py\", line 28, in get_locator_by_string\n    locator = exploited_locator[1]\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "93b72b1b30cad4f7",
+      "name" : "stdout",
+      "source" : "93b72b1b30cad4f7.txt",
+      "type" : "text/plain",
+      "size" : 54
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "run_around_tests::0",
+    "time" : {
+      "start" : 1643044685374,
+      "stop" : 1643044685374,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "appdriver::0",
+    "time" : {
+      "start" : 1643044685375,
+      "stop" : 1643044686526,
+      "duration" : 1151
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c6da78140b86941d",
+      "name" : "screenshot",
+      "source" : "c6da78140b86941d.png",
+      "type" : "image/png",
+      "size" : 285455
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_profile"
+  }, {
+    "name" : "host",
+    "value" : "MacBooks-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "81405-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_profile"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3beb340f354ef476.json",
+  "parameterValues" : [ ]
+}

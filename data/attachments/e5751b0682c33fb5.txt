@@ -1,0 +1,12 @@
+autouse check
+
+Setup Driver
+setup_class
+b'\xf7'
+Now using email is tonjajackson@folllo.com
+Send email as: tonjajackson@folllo.com
+md5 has is : 2e3989b563e0b0698a94ca115d686b96
+Count letters numbers with id: ['99a8cde05d82fcc4ea5fe80856ad4379']
+['NATIVE_APP']
+First step SignUp
+b'\xf7'

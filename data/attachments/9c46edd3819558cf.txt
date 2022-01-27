@@ -1,0 +1,14 @@
+__init__
+First method
+__init__
+b'\xf7'
+__init__
+__init__
+__init__
+__init__
+Send email as: #fake_email.com
+__init__
+__init__
+Please create a Baliston account to use your new shoes with.
+Email is incorrect is appeared 
+__init__

@@ -1,0 +1,191 @@
+{
+  "uid" : "5c49758d640c9eaf",
+  "name" : "Ex10: Testing Push Notification ",
+  "fullName" : "tests.test_onboard#test_smoke_Push_Notification",
+  "historyId" : "79fc16d7d1df1418e1e8c158aadaf31c",
+  "time" : {
+    "start" : 1643285143210,
+    "stop" : 1643285143210,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: unconditional skip",
+  "statusTrace" : "('/Users/Alex/PycharmProjects/baliston-test/tests/test_onboard.py', 120, 'Skipped: unconditional skip')",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "appdriver",
+    "time" : {
+      "start" : 1643284979865,
+      "stop" : 1643284985455,
+      "duration" : 5590
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "run_around_tests",
+    "time" : {
+      "start" : 1643284985455,
+      "stop" : 1643284985456,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "run_around_tests::0",
+    "time" : {
+      "start" : 1643285143218,
+      "stop" : 1643285143219,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "appdriver::0",
+    "time" : {
+      "start" : 1643285143219,
+      "stop" : 1643285144434,
+      "duration" : 1215
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "271596350ea9ea22",
+      "name" : "screenshot",
+      "source" : "271596350ea9ea22.png",
+      "type" : "image/png",
+      "size" : 420719
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_onboard"
+  }, {
+    "name" : "host",
+    "value" : "MacBooks-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "22216-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_onboard"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f8ae9683566d751",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1643284935880,
+        "stop" : 1643284935880,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c9f9dfcd1ac7e055",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1643284626598,
+        "stop" : 1643284626598,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "970ced5754ee94d5",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1643046913508,
+        "stop" : 1643046913508,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "78aac43c106cc25",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1643046749287,
+        "stop" : 1643046749287,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "be9b85e44b85242f",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1643046598371,
+        "stop" : 1643046598371,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7be6cc101f5eabf0",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1643046383514,
+        "stop" : 1643046383514,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7a5d262c110ad05b",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1643043991892,
+        "stop" : 1643043991892,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip" ]
+  },
+  "source" : "5c49758d640c9eaf.json",
+  "parameterValues" : [ ]
+}

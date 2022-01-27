@@ -1,0 +1,2 @@
+b'\xf7'
+Send email as: fake_email@mail.com

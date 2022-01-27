@@ -1,0 +1,12 @@
+autouse check
+
+Setup Driver
+setup_class
+b'\xf7'
+Now using email is anaperrone@folllo.com
+Successfully created new user: NfWyn0eQtlSWRSnHwgclGKrtOMG2
+Successfully fetched user data: {'age': 52, 'devices': {'607BA1BF-24D0-FE63-62E8-0BEC7B0CC80F': {'code': 'ZT2-SPFIx-26ZO-211400010\r\nC2:52:B3:E5:F0:EA\r\nF8:0B:FA:A4:C5:C0', 'name': 'PiedPiper', 'uid': '607BA1BF-24D0-FE63-62E8-0BEC7B0CC80F'}}, 'email': 'anaperrone@folllo.com', 'gender': 'Female', 'height': 168, 'locate': 'en_UA', 'location': 'enabled', 'name': 'Alan Turing', 'notification': 'enabled', 'shoeSize': 31.0, 'tz': 'Europe/Kiev', 'uid': 'NfWyn0eQtlSWRSnHwgclGKrtOMG2', 'weight': 55}
+Send email as: anaperrone@folllo.com
+md5 has is : b10d9a0fcba53c89a1af5c8b634a1c31
+Count letters numbers with id: ['d8374b2e90388bb40d81c62312918195']
+['NATIVE_APP']

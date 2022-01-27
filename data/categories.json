@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message: id : I’M NEW TO BALISTON\nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at XCUITestDriver.doNativeFind (/Users/Alex/.appium/appium-xcuitest-driver/node_modules/appium-xcuitest-driver/lib/commands/find.js:130:11)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at XCUITestDriver.findNativeElementOrElements (/Users/Alex/.appium/appium-xcuitest-driver/node_modules/appium-xcuitest-driver/lib/commands/find.js:90:10)\n    at XCUITestDriver.findElOrEls (/Users/Alex/.appium/appium-xcuitest-driver/node_modules/appium-xcuitest-driver/lib/commands/find.js:23:12)\n    at XCUITestDriver.findElOrElsWithProcessing (/Users/Alex/.appium/appium-xcuitest-driver/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)\n    at XCUITestDriver.findElement (/Users/Alex/.appium/appium-xcuitest-driver/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)",
+      "children" : [ {
+        "name" : "Ex5: Testing Sing Up",
+        "uid" : "47cd0ab4dc2a1c11",
+        "parentUid" : "5d12987a8b90c6a6be66bfe0f469dc3a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643284916405,
+          "stop" : 1643284935694,
+          "duration" : 19289
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5d12987a8b90c6a6be66bfe0f469dc3a"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

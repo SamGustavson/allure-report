@@ -1,0 +1,4 @@
+Simulator delete app
+Profile data clean up
+teardown_class
+Quit driver

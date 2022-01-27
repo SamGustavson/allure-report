@@ -1,0 +1,4 @@
+b'\xf7'
+Send email as: fake_email#mail.com
+b'\xf7'
+Email is incorrect is appeared 

@@ -1,0 +1,11 @@
+autouse check
+
+Setup Driver
+setup_class
+b'\xf7'
+Now using email is juliohoskins@folllo.com
+Send email as: juliohoskins@folllo.com
+md5 has is : de644c8cdf41c6ee8d89186281d58949
+Count letters numbers with id: ['1703779192dd5f2350330985e40b882c']
+['NATIVE_APP']
+First step SignUp

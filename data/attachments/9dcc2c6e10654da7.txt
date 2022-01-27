@@ -1,0 +1,15 @@
+__init__
+__init__
+__init__
+__init__
+__init__
+__init__
+__init__
+__init__
+__init__
+__init__
+__init__
+__init__
+__init__
+__init__
+Actual parameters is: weight - 56, height -169,age- 53

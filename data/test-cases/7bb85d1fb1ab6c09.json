@@ -1,0 +1,266 @@
+{
+  "uid" : "7bb85d1fb1ab6c09",
+  "name" : "test_login",
+  "fullName" : "tests.test_profile#test_login",
+  "historyId" : "a05559b51415957e8333d883df9c0592",
+  "time" : {
+    "start" : 1643045804845,
+    "stop" : 1643045852263,
+    "duration" : 47418
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "appdriver",
+    "time" : {
+      "start" : 1643045799022,
+      "stop" : 1643045804842,
+      "duration" : 5820
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "run_around_tests",
+    "time" : {
+      "start" : 1643045804843,
+      "stop" : 1643045804843,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Press Give Allow Bluetooth button on welcome screen",
+      "time" : {
+        "start" : 1643045805034,
+        "stop" : 1643045809434,
+        "duration" : 4400
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Press Skip button on welcome screen",
+      "time" : {
+        "start" : 1643045809434,
+        "stop" : 1643045810128,
+        "duration" : 694
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Press \"Already have an account\" button",
+      "time" : {
+        "start" : 1643045810128,
+        "stop" : 1643045810846,
+        "duration" : 718
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Generate new mail box and fake email address",
+      "time" : {
+        "start" : 1643045810846,
+        "stop" : 1643045811535,
+        "duration" : 689
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click on \"'stevenmerrick@folllo.com'\" field\", clear and set app email for IOS or Android",
+      "time" : {
+        "start" : 1643045814271,
+        "stop" : 1643045831307,
+        "duration" : 17036
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "'stevenmerrick@folllo.com'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Press sign in button",
+      "time" : {
+        "start" : 1643045831307,
+        "stop" : 1643045832092,
+        "duration" : 785
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Open link from fake email box for entry to the app",
+      "time" : {
+        "start" : 1643045832092,
+        "stop" : 1643045836742,
+        "duration" : 4650
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "index_mail",
+        "value" : "0"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Open authorization link in simulator",
+      "time" : {
+        "start" : 1643045836742,
+        "stop" : 1643045841326,
+        "duration" : 4584
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "link",
+        "value" : "'https://balistondev.page.link?link=https://baliston-dev.firebaseapp.com/__/auth/action?apiKey%3DAIzaSyDyiQi28F8ecT4TvVFMYzXSpFLrMA7q8Rs%26mode%3DsignIn%26oobCode%3DsX9JXk8qgGFZpppgNuFsOHTCOQJqHPM-A97iTBUkGlMAAAF-jSnIMg%26continueUrl%3Dhttps://baliston-dev.firebaseapp.com%26lang%3Den&amp;ibi=com.zhortech.baliston.dev&amp;ifl=https://baliston-dev.firebaseapp.com/__/auth/action?apiKey%3DAIzaSyDyiQi28F8ecT4TvVFMYzXSpFLrMA7q8Rs%26mode%3DsignIn%26oobCode%3DsX9JXk8qgGFZpppgNuFsOHTCOQJqHPM-A97iTBUkGlMAAAF-jSnIMg%26continueUrl%3Dhttps://baliston-dev.firebaseapp.com%26lang%3Den'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d7f29cfae43f7fc2",
+      "name" : "stdout",
+      "source" : "d7f29cfae43f7fc2.txt",
+      "type" : "text/plain",
+      "size" : 830
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "run_around_tests::0",
+    "time" : {
+      "start" : 1643046009428,
+      "stop" : 1643046009429,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "appdriver::0",
+    "time" : {
+      "start" : 1643046009430,
+      "stop" : 1643046010578,
+      "duration" : 1148
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7ffee0de380506a5",
+      "name" : "screenshot",
+      "source" : "7ffee0de380506a5.png",
+      "type" : "image/png",
+      "size" : 285672
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_profile"
+  }, {
+    "name" : "host",
+    "value" : "MacBooks-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "83052-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_profile"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7bb85d1fb1ab6c09.json",
+  "parameterValues" : [ ]
+}

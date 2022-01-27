@@ -1,0 +1,2 @@
+Simulator delete app
+Profile data clean up
